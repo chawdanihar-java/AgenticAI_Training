@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
 
         AnthropicClient client = AnthropicOkHttpClient.builder()
-                .apiKey("sk-i0qTBK1p9r7lCfYgUkoGxw")
+                .apiKey("sk-test")
                 .build();
 
         MessageCreateParams params = MessageCreateParams.builder()
